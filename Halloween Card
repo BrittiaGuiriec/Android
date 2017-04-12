@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.happyhalloween.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/halloween"/>
+
+    <TextView
+        android:id="@+id/happy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="40dp"
+        android:textSize="40sp"
+        android:textColor="#ffa726"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="happy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:textSize="45sp"
+        android:textColor="#f57c00"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_below="@id/happy_text"
+        android:layout_alignParentRight="true"
+        android:paddingRight="16dp"
+        android:text="halloween !" />
+
+</RelativeLayout>
